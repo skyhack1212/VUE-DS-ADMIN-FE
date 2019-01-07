@@ -281,7 +281,7 @@ router.beforeEach((to, from, next) => {
     // console.log("user")
     // 没有登录的情况：访问登录页直接通过,访问其它页面跳转到登录页
     to.path.startsWith('/login') ? next() : next({path: '/login'})
-    // window.location.href = "http://auth.in.taou.com/login.php?goto=http://mm768.in.taou.com:8085/"
+    // window.location.href = "http://auth.in.xxxx.com/login.php?goto=http://xxxx.in.xxxx.com:8085/"
   }
   else {
     // 已经登录的情况
@@ -306,9 +306,9 @@ router.beforeEach((to, from, next) => {
     if (user.expire && Date.now() > user.expire) {
       // console.log('**用户缓存信息超过预设时间，准备更新数据**')
       try {
-        let mm768_token = Cookies.get("mm768_token")
-        let mm768_user = Cookies.get("authcenter_usr")
-        let request_params = { token: mm768_token, name: mm768_user}
+        let xxxx_token = Cookies.get("xxxx_token")
+        let xxxx_user = Cookies.get("authcenter_usr")
+        let request_params = { token: xxxx_token, name: xxxx_user}
         // let result = await store.dispatch('user/reload')
         let result = await store.dispatch('user/reload')
         if (result && result.errcode === 0) {

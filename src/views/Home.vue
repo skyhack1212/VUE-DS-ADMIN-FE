@@ -156,8 +156,8 @@
           if (typeof(rmgg) === "undefined") {
           // if (result.errcode === 0) {
             // this.$router.go('/login') // 用go刷新
-            // window.location.href = "http://auth.in.taou.com/login.php?goto=http://mm768.in.taou.com:8085/"
-            window.location.href = "http://auth.in.taou.com/login.php?goto=http://mm768.in.taou.com"
+            // window.location.href = "http://auth.in.xxxxx.com/login.php?goto=http://xxxxx.in.xxxxx.com:8085/"
+            window.location.href = "http://auth.in.xxxxx.com/login.php?goto=http://xxxx.in.xxxxx.com"
             return
           } else {
             // this.$msgError(result.errmsg)
