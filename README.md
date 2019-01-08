@@ -5,6 +5,13 @@
 
   这是一个用vuejs2.x和element-ui2.x搭建的后台管理项目。
 
+  主要界面：
+  - 对接公司层面的扫码登录接口（相当于一个demo吧）
+    ![扫码登录.png](./pics_for_README/扫码登录.png)
+  - 扫码登录后，主界面如下：
+    ![主界面.png](./pics_for_README/主界面.png)
+    ![主界面2.png](./pics_for_README/主界面2.png)
+
 ### 项目结构
 ```
 ├── build  #webpack编译相关文件目录，一般不用动

@@ -197,14 +197,6 @@
     data() {
       return {
         jobsToolList: [
-          // { title: '0 数据验证平台', href: 'http://10.19.33.29:12130/' },
-          { title: '1 候选人排序', href: 'http://10.19.33.29:12130/candidate_sort?next=1' },
-          { title: '2 人才搜索', href: 'http://10.19.33.29:12130/talent_search' },
-          { title: '3 职位搜索', href: 'http://10.19.33.29:12130/job_search' },
-          { title: '4 职位搜索历史', href: 'http://10.19.33.29:12130/job_search_history' },
-          { title: '5 职位投递/浏览/推送', href: 'http://10.19.33.29:2019/demo_job/show?jid=360861' },
-          { title: '6 相似职位', href: 'http://10.19.33.29:2019/demo_sim_job/show?jid=360861' },
-          { title: '7 用户的职位推荐', href: 'http://10.19.33.29:2018/demo/show?uid=133448405' },
           // { title: '9.1 171zk_kafka_web', href: 'http://10.xxx.xx.152:8097' },
           // { title: '9.2 88zk_kafka_web', href: 'http://10.xxx.xx.152:8098' },
           // { title: '9.3 232zk_kafka_web', href: 'http://10.xxx.xx.152:8099' },
@@ -215,13 +207,12 @@
         StudyList: [
           { title: '0 vue官网', href: 'https://cn.vuejs.org/' },
           { title: '1 vue社区', href: 'https://www.vue-js.com/' },
-          { title: '2 脉脉测试数据工厂demo', href: 'http://mm768.in.taou.com' },
-          { title: '3 Jenkins_CICD_demo', href: 'http://10.9.11.196:8088' },
-          { title: '4 数据工厂接口docker容器发布', href: 'http://10.9.11.196:32738' },
-          { title: '5 数据工厂接口-mysql_docker', href: 'http://10.9.11.196:3306' },
-          { title: '6 数据工厂接口-redis_docker', href: 'http://10.9.11.196:6379' },
-          { title: '7 maimai_jobs接口docker发布尝试', href: 'http://10.9.11.196:32738' },
-          { title: '8 接口自动化和性能测试研究', href: 'http://10.9.11.196:8089/' },
+          { title: '3 Jenkins_CICD_demo', href: 'http://10.xxx.xx.152:8088' },
+          { title: '4 数据工厂接口docker容器发布', href: 'http://10.xxx.xx.152:32738' },
+          { title: '5 数据工厂接口-mysql_docker', href: 'http://10.xxx.xx.152:3306' },
+          { title: '6 数据工厂接口-redis_docker', href: 'http://10.xxx.xx.152:6379' },
+          { title: '7 maimai_jobs接口docker发布尝试', href: 'http://10.xxx.xx.152:32738' },
+          { title: '8 接口自动化和性能测试研究', href: 'http://10.xxx.xx.152:8089/' },
           // { title: '8 shipyard镜像容器管理平台研究', href: '' },
           // { title: '9--[git_hug]帮你快速学习git命令', href: '' },
           // { title: '待更新。。。', href: '' }
@@ -233,16 +224,7 @@
           { title: '4 Json在线解析', href: 'http://www.kjson.com/' }
         ],
         workSystemList: [
-          { title: '1 docs', href: 'http://docs.taou.com' },
-          { title: '2 jira', href: 'http://jira.in.taou.com' },
-          { title: '3 gitlab', href: 'https://code.taou.com' },
-          { title: '4 tower', href: 'https://tower.im' },
-          { title: '5 Yapi', href: 'http://yapi.in.taou.com/' },
-          { title: '6 sentry', href: 'http://sentry.mm.taou.com' },
-          { title: '7 JumpServer', href: 'http://10.9.1.45:8000/login/' },
-          { title: '8 考勤系统', href: 'http://confucius.maimai.cn/' },
-          { title: '9 RabbitMQ', href: 'http://10.9.11.108:15672/#/' },
-          { title: '10 mail', href: 'http://mail.taou.com' },
+          { title: '1 docs', href: 'http://10.xxx.xx.152' }
         ],
         lineChartData: lineChartData.newVisitis
       }
