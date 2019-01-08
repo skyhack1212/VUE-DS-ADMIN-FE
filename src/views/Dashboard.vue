@@ -72,18 +72,11 @@
         </el-col>
       </el-row> -->
       <!-- <el-collapse v-model="activeNames" @change="handleChange"> -->
-      <el-collapse>
-        <el-collapse-item title="商业QA周会值班约定" name="2">
-          <div>1 预定会议室：轮流值班；</div>
-          <div>2 确定会议主题：轮流主持。</div>
-          <div>3 值班顺序：杜胜永、安世豪、陈广、高春娟、孙笑、王杰、赵则明。</div>
-        </el-collapse-item>
-      </el-collapse>
       <el-row :gutter="20" style="margin-top:0px;">
         <el-col :span="6">
           <el-card class="box-card">
             <div slot="header" class="clearfix">
-              <span>招聘会员</span>
+              <span>XXXX</span>
             </div>
             <div class="component-item" style="height:450px;">
               <dropdown-menu style="margin:0 auto;" title='算法工具集' :items='jobsToolList'></dropdown-menu>
