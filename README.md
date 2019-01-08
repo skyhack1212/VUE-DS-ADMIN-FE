@@ -48,7 +48,7 @@
 可以直接在gitlab上下载项目源码。
 或者通过git命令下载
 #git命令下载
-git clone https://xxx.xxx.com/git/qa/ds_admin_django.git
+git clone https://xxx.xxx.com/git/qa/ds_admin.git
 
 假定项目已经下载下来了。
 
