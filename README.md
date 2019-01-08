@@ -45,10 +45,12 @@
 第一步： 先安装node v8.2.1环境，自行百度。
 
 第二步：下载项目
-可以直接在gitlab上下载项目源码。
+可以直接在github上下载项目源码。
 或者通过git命令下载
 #git命令下载
-git clone https://xxx.xxx.com/git/qa/ds_admin.git
+git clone https://xxx.xxx.com/git/qa/ds_admin.git 
+> 在公司开发的时候是前后端代码放在一起的，ds_admin下有ds_admin_django即后端和ds_admin_fe即前端两部分
+> 本文档主要是ds_admin_fe即前端部分，后端部分暂不开源。
 
 假定项目已经下载下来了。
 
